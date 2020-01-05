@@ -1,0 +1,254 @@
+html body
+{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    min-height: 100%;
+	background: #e6ac31 ;
+	
+}
+
+.header-section
+{
+    padding-top: 3%;
+	padding-bottom: 3%;
+	position: relative;
+}
+
+
+.logo
+{
+	width: 75%;
+	display: inline-block;
+	padding-top: 15px;
+	padding-left: 80px;
+}
+
+.main-menu 
+{
+	list-style-position: outside;
+	float: right;
+	padding-right: 30px;
+	overflow: hidden;
+	margin-right: 20px;
+}
+
+.main-menu li
+{
+	float: left;
+}
+
+.main-menu li a 
+{
+	display: block;
+	font-size: 13px;
+	color: #8d5757;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-right: 50px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li.main-menu a:hover:not(.active) 
+{
+	background-color: rgb(238, 211, 153);
+}
+
+
+.active 
+{
+	background-color: rgb(240, 144, 1);
+}
+
+.profile-section 
+{
+    padding: 50px 15px;
+    position: relative;
+    height: 450px;
+}
+
+.profile-warp 
+{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.profile-text
+{
+    padding-left: 30px;
+    width: 50%;
+    float: justify;
+}
+
+.profile-text p 
+{
+	margin-bottom: 45px;
+	text-align: justify;
+}
+
+.profile-foto 
+{
+    width: 50%;
+	float: right;
+	text-align: center;
+}
+
+.galeri-section 
+{
+    padding: 50px 15px;
+    position: relative;
+    height: 500px;
+}
+
+.galeri-warp 
+{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.galeri-text
+{
+    padding-left: 30px;
+    width: 50%;
+	float: justify;
+
+}
+
+.galeri-text p 
+{
+	margin-bottom: 45px;
+	text-align: justify;
+}
+
+.galeri-foto 
+{
+    width: 45%;
+    float: right;
+}
+
+
+input:focus,
+select:focus,
+button:focus,
+textarea:focus
+{
+	outline: none;
+}
+
+.contact-section 
+{
+	position: relative;
+	padding: 120px 0px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.contact-form 
+{
+		padding-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea 
+{
+	font-size: 14px;
+	color: #020202;
+	border: none;
+	border-bottom: 1px solid #b2b2b2;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.contact-form input
+{
+	width: 70%;
+}
+
+.contact-form textarea 
+{
+	width: 100%;
+}
+
+.contact-form textarea 
+{
+	height: 150px;
+	margin-bottom: 38px;
+}
+
+
+.about-section 
+{
+    padding: 15px 15px;
+	position: unset;
+    
+}
+	
+table 
+{
+	margin: auto;
+	color: #232323;
+	border-collapse: collapse;
+	width: 50%;
+}
+	
+table th 
+{
+	border: 1px solid #999;
+	padding: 8px 20px;
+	background: #212121 ;
+	color: #fff;
+	font-weight: normal;
+}
+		
+table td 
+{
+	border-bottom: 1px solid #999;
+	padding: 8px 20px;
+	text-align: center;
+	background: #fbfbfb;
+}
+	
+.footer-section 
+{
+	background: #212121;
+	padding: 10px 10px;
+	position: -ms-page;
+}
+
+.footer-social 
+{
+    text-align: right;
+	margin-right: 5px;
+	height: 2px;
+	padding-top: 5px;
+}
+
+.footer-social a 
+{
+	margin-right: 10px;
+}
+
+.icon{
+	width: 15px;
+}
+
+.footer-copyright {
+	color: #fff;
+	font-size: 5px;
+	font-weight: 500;
+    padding: 10px ;
+}
+
+.bg_biru{
+	background: blue;
+}
+.bg_merah{
+	background: red;
+}
+.bg_green{
+	background: green;
+}
